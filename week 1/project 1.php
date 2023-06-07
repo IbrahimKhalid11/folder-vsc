@@ -1,5 +1,5 @@
 <?php
 $name ="Ibrahim";
 gettype($name);
-$num;
+$num=5;
 ?>
