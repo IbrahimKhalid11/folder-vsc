@@ -31,7 +31,7 @@
                     <td><button type="submit" name="remove" class="btn btn-danger">remove</button></td>
                 </form>
                 <?php } else { ?>
-                <td><?php echo $val ?></td>
+                <td><?php echo ($val); ?></td>
                 <?php } ?>
                 <?php }
                 } ?>
@@ -39,7 +39,7 @@
 
 
                 <?php
-                // unset($_SESSION['cart']); 
+                unset($_SESSION['cart']); 
                 ?>
             </tr>
         </tbody>
