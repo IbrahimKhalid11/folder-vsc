@@ -6,7 +6,6 @@ if (isset($_POST['submit'])) {
     $password = trim(htmlspecialchars($_POST["password"]));
     $gender = trim(htmlspecialchars($_POST["gender"]));
     $age = trim(htmlspecialchars($_POST["age"]));
-
     //validation
     // name (required,string,100)
     $errors = [];
