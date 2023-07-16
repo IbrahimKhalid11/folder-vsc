@@ -61,6 +61,8 @@ if (isset($_POST['submit'])) {
 
         // print_r($errors);
     }
+        echo "Welcome $name ";
+    
 } else {
     header("location:login.php");
 }
